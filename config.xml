@@ -3,10 +3,10 @@
         id        = "com.dkdevs.binaryName"
         version   = "1.0.0">
 
-    <name>Binary to Name</name>
+    <name>Name to Binary</name>
 
     <description>
-        Binary to Name Converter
+        Name to binary Converter
     </description>
 
     <author href="http://dkdevs.com" email="contact@dkdevs.com">
