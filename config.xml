@@ -1,0 +1,33 @@
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.dkdevs.binaryName"
+        version   = "1.0.0">
+
+    <name>Binary to Name</name>
+
+    <description>
+        Binary to Name Converter
+    </description>
+
+    <author href="http://dkdevs.com" email="contact@dkdevs.com">
+        DK Devs
+    </author>
+
+    <preference name="permissions" value="none"/>
+
+
+    <icon src="res/icon/android/drawable-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="res/icon/android/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="res/icon/android/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="res/icon/android/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="res/icon/android/drawable-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
+    <icon src="res/icon/ios/Icon-72.png" gap:platform="ios" gap:qualifier=""/>
+
+    <icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
+
+
+</widget>
