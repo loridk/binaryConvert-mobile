@@ -1,5 +1,6 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
+        xmlns:android   = "http://schemas.android.com/apk/res/android"
         id        = "com.dkdevs.binaryName"
         version   = "1.0.0">
 
@@ -14,6 +15,13 @@
     </author>
 
     <preference name="permissions" value="none"/>
+    <preference name="orientation" value="portrait" />
+
+    <supports-screens android:anyDensity="true" android:resizeable="true"
+                      android:smallScreens="true"
+                      android:normalScreens="true"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true" />
 
 
     <icon src="res/icon/android/drawable-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi" />
